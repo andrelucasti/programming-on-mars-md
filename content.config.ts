@@ -10,5 +10,9 @@ export default defineContentConfig({
       type: 'page',
       source: 'articles/*.md',
     }),
+    labs: defineCollection({
+      type: 'page',
+      source: 'labs/*.md',
+    }),
   },
 })

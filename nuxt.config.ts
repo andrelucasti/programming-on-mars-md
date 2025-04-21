@@ -1,7 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import tailwindcss from "@tailwindcss/vite";
+
 export default defineNuxtConfig({
   modules: [
-    '@nuxt/content',
+    '@nuxt/content', '@nuxt/ui'
   ],
   devtools: { enabled: true },
   future: {
@@ -10,6 +12,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   css: [
     // Global CSS files
+
     './assets/css/vendor/bootstrap.min.css',
     './assets/css/plugins/bootstrap-select.min.css',
     './assets/css/plugins/slick-theme.css',
@@ -17,6 +20,12 @@ export default defineNuxtConfig({
     './assets/css/plugins/animation.css',
     './assets/css/plugins/feature.css',
     './assets/css/plugins/fontawesome-all.min.css',
+    './assets/ui.css',
     './assets/css/style.css',
     ],
+  vite: {
+    plugins: [
+      tailwindcss(),
+    ],
+  },
 })

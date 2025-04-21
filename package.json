@@ -11,6 +11,10 @@
   },
   "dependencies": {
     "@nuxt/content": "^3.4.0",
-    "nuxt": "^3.16.2"
+    "@nuxt/ui": "^3.0.2",
+    "@tailwindcss/vite": "^4.1.4",
+    "nuxt": "^3.16.2",
+    "tailwindcss": "^4.1.4",
+    "vue3-carousel": "^0.15.0"
   }
 }

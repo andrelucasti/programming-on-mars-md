@@ -2,25 +2,25 @@
 import Carousel from "~/components/Carousel.vue";
 import Sections from "~/components/Sections.vue";
 
-interface Article {
+interface Labs {
   path: string;
   title: string;
   img: string;
 }
 
-const { data: articles } = await useAsyncData('articles', async () => {
-  const articles = await queryCollection("articles").all()
+const { data: labs } = await useAsyncData('labs', async () => {
+  const articles = await queryCollection("labs").all()
   return articles.map(article => ({
     path: article.path,
     img: article.meta.image,
     title: article.title
-  })) as Article[]
+  })) as Labs[]
 })
 </script>
 
 <template>
-  <Sections id="articles" title="Explore the Fundamentals" subtitle="Articles">
-    <Carousel :items="articles || []" />
+  <Sections  id="labs" title="Join Me in the Labs" subtitle="Labs">
+    <Carousel :items="labs || []" />
   </Sections>
 </template>
 

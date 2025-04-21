@@ -8,6 +8,7 @@ const authors = [
 const props = defineProps<{
   date: string
   title: string
+  image: string
   tags: string[]
 }>()
 </script>
@@ -29,8 +30,6 @@ const props = defineProps<{
                 <div class="row">
                   <div class="col-lg-12">
                     <div class="content text-center">
-                      <div class="thumbnail">
-                       
                       <ul class="rainbow-meta-list">
                         <li v-for="author in authors">
                           <i class="feather-user"></i>
@@ -41,7 +40,6 @@ const props = defineProps<{
                           {{date}}
                         </li>
                       </ul>
-                    </div>
                   </div>
                 </div>
               </div>

@@ -8,7 +8,7 @@
 
         <div class="col-lg-8 d-none d-lg-block">
           <nav class="mainmenu-nav d-none d-lg-flex justify-content-center">
-            <MenuAnchor />
+            <Menu></Menu>
           </nav>
         </div>
 

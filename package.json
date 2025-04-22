@@ -14,10 +14,10 @@
     "@nuxt/scripts": "^0.11.6",
     "@nuxt/ui": "^3.0.2",
     "@nuxtjs/sitemap": "^7.2.10",
-    "@pinia/nuxt": "^2.1.7",
+    "@pinia/nuxt": "^0.11.0",
     "@tailwindcss/vite": "^4.1.4",
     "nuxt": "^3.16.2",
-    "pinia": "^2.1.7",
+    "pinia": "^3.0.2",
     "tailwindcss": "^4.1.4",
     "vue3-carousel": "^0.15.0"
   }

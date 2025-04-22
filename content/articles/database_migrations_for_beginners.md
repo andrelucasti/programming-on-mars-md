@@ -10,9 +10,11 @@ published: true
 
 ::blog-post
 ---
-date: Tue Aug 06 2024
-image: /articles/images/database_migration.png
-tags: [software-engineering, database, flyway]
+title: Database Migrations for beginners
+image: '/articles/images/database_migration.png'
+description: 'Database Migrations for beginners'
+date: Mon Jul 22 2024
+tags: [Software Engineering, Database, Flyway]
 ---
 # Database Migrations for beginners
 

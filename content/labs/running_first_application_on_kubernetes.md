@@ -10,6 +10,9 @@ published: true
 
 ::blog-post
 ---
+title: Running First Application on Kubernetes
+image: '/labs/images/first_application_header.png'
+description: 'Learn how to deploy your first application on Kubernetes'
 date: Mon Aug 12 2024
 tags: [Kubernetes, Hands-On, Software Architecture, k8s, DevOps]
 ---

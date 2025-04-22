@@ -1,5 +1,11 @@
 <script setup lang="ts">
 import Welcome from "~/components/Welcome.vue";
+useSeoMeta({
+  title: 'Programming On Mars',
+  description: 'Become the Software Engineer Who Can Code on Mars',
+  ogTitle: 'Programming On Mars',
+  ogDescription: 'Become the Software Engineer Who Can Code on Mars',
+})
 </script>
 
 <template>

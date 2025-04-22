@@ -10,6 +10,9 @@ published: true
 
 ::blog-post
 ---
+title: Difference Between PUT and PATCH
+image: '/articles/images/put_patch_header_image.png'
+description: 'What the difference between PUT and PATCH'
 date: Thu Jul 18 2024
 tags: [REST API, Fundamentals, Programming, Software Engineering]
 ---

@@ -10,6 +10,10 @@ published: true
 
 ::blog-post
 ---
+title: What is Kubernetes how can I use it?
+image: '/articles/images/kubernetes_logo.png'
+description: "Kubernetes is a platform for managing containerized workloads and services. that make easy declarative configuration and automation."
+author: Andre Lucas
 date: Tue Aug 06 2024
 tags: [k8s, infrastructure, kubernetes, devops]
 ---

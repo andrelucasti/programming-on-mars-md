@@ -10,6 +10,9 @@ published: true
 
 ::blog-post
 ---
+title: Managing Pods using ReplicaSet
+image: '/labs/images/replicaset_header.png'
+description: 'Learn how to manage Pods using ReplicaSet in Kubernetes'
 date: Fri Aug 16 2024
 tags: [Kubernetes, ReplicaSet, k8s, DevOps]
 ---

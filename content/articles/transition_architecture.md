@@ -10,6 +10,9 @@ published: true
 
 ::blog-post
 ---
+title: Transition Architecture - From Monolithic to Microservices
+image: '/articles/images/transition_architecture_header.png'
+description: 'Monolithic vs Microservices and Transition Architecture'
 date: Sun Jul 28 2024
 tags: [Microservice, Monolithic, Software Architecture, Software Development]
 ---

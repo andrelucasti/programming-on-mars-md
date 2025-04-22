@@ -10,6 +10,9 @@ published: true
 
 ::blog-post
 ---
+title: Hands on — Springboot + Flyway
+image: '/labs/images/springboot_flyway_header.png'
+description: 'Hands on — Springboot + Flyway'
 date: Mon Jul 22 2024
 tags: [Spring Boot, Hands On, Flyway, SQL]
 ---

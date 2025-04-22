@@ -10,6 +10,10 @@ published: true
 
 ::blog-post
 ---
+title: Deployment - more control over of your applications
+image: '/labs/images/deployment_header.png'
+description: 'Learn how to use Kubernetes Deployments for better application control'
+author: André Lucas
 date: Mon Aug 26 2024
 tags: [Infrastructure, Deployment, k8s, Containers, DevOps]
 ---

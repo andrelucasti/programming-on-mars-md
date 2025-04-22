@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import {useBlogSeo} from "~/composables/useBlogSeo";
+
 const authors = [
   {
     name: 'Andre Lucas',
@@ -10,7 +12,18 @@ const props = defineProps<{
   title: string
   image: string
   tags: string[]
+  description?: string
 }>()
+
+
+useBlogSeo({
+  title: props.title,
+  description: props.description,
+  image: props.image,
+  tags: props.tags,
+  date: props.date
+})
+
 </script>
 
 <template>

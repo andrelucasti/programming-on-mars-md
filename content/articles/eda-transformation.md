@@ -6,6 +6,7 @@ author: Andre Lucas
 date: Mon Apr 21 2025
 tags: ['event-driven-architecture', 'eda', 'architecture']
 published: true
+seo: 
 ---
 
 ::blog-post

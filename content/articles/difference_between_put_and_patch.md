@@ -15,8 +15,6 @@ tags: [REST API, Fundamentals, Programming, Software Engineering]
 ---
 # Difference Between PUT and PATCH
 
-![PUT and PATCH](/articles/images/put_patch_header_image.png)
-
 Hey there, the objective of this story format is to be fast and tell you fundamentals where we sometimes don't question ourselves in our daily lives.
 
 ## What is the main difference between PUT and PATCH?

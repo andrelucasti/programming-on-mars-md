@@ -1,5 +1,5 @@
 <template>
-
+  <Headers></Headers>
     <div class="container">
       <div class="row">
         <main class="page-wrapper rbt-dashboard-page">
@@ -17,5 +17,5 @@
         </main>
       </div>
     </div>
-  
+  <Footers></Footers>
   </template>

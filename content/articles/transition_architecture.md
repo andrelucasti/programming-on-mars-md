@@ -1,5 +1,5 @@
 ---
-title: Transition Architecture
+title: Transition Architecture - From Monolithic to Microservices
 image: '/articles/images/transition_architecture_header.png'
 description: 'Monolithic vs Microservices and Transition Architecture'
 author: Andre Lucas

@@ -15,8 +15,6 @@ tags: [k8s, infrastructure, kubernetes, devops]
 ---
 # What is Kubernetes how can I use it?
 
-![Kubernetes Logo](/articles/images/kubernetes_logo.png)
-
 [Kubernetes](https://kubernetes.io), also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications.
 
 Kubernetes is a platform for managing containerized workloads and services. that make easy declarative configuration and automation.

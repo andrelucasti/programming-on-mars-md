@@ -1,26 +1,49 @@
 <script setup lang="ts">
-import type {NavigationMenuItem} from "#ui/components/NavigationMenu.vue";
+interface MenuItem{
+  label: string;
+  link: string;
+  elementId: string;
+}
 
-const items = ref<NavigationMenuItem[]>([
+const items = ref<MenuItem[]>([
     {
       label: 'Home',
-      to: '#',
+      link: '/',
+      elementId: '',
     },
   {
     label: 'Articles',
-    to: '#articles',
+    link: '#articles',
+    elementId: 'articles',
   },
   {
     label: 'Labs',
-    to: '#labs',
+    link: '#labs',
+    elementId: 'labs',
   }
 ])
-
+const router = useRouter()
+const scrollToSection = (item: MenuItem) => {
+  if (window.location.pathname !== '/') {
+    router.push('/')
+  }
+  
+  const element = document.getElementById(item.elementId)
+  if (element) {
+    window.scrollTo({
+      top: element.offsetTop,
+      behavior: "smooth",
+    })
+  }
+}
 </script>
 
 <template>
-  <UNavigationMenu :items="items" class="data-[orientation=vertical]">
-  </UNavigationMenu>
+  <ul class="mainmenu">
+    <li v-for="item in items">
+      <NuxtLink :to="item.link" @click.prevent="scrollToSection(item)" > {{ item.label }} </NuxtLink>
+    </li>
+  </ul>
 </template>
 
 <style scoped>

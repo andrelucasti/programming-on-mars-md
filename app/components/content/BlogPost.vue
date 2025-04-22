@@ -14,6 +14,7 @@ const props = defineProps<{
 </script>
 
 <template>
+  <Headers></Headers>
   <div class="main-content">
 
   </div>
@@ -71,5 +72,5 @@ const props = defineProps<{
       </div>
     </div>
   </div>
-
+  <Footers></Footers>
 </template>

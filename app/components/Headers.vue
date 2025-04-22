@@ -19,9 +19,7 @@
               <!--              <MemberArea class="rainbow-gradient-btn"></MemberArea>-->
             </div>
 
-
-
-            <MenuHamburgerButton />
+            <HamburgerButton />
 
           </div>
         </div>
@@ -31,7 +29,7 @@
     </div>
   </header>
 
-  <MenuPopup />
+  <Popup />
 
 </template>
 <script setup lang="ts">

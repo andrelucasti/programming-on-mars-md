@@ -1,27 +1,10 @@
 <script setup lang="ts">
-interface MenuItem{
-  label: string;
-  link: string;
-  elementId: string;
-}
 
-const items = ref<MenuItem[]>([
-    {
-      label: 'Home',
-      link: '/',
-      elementId: '',
-    },
-  {
-    label: 'Articles',
-    link: '#articles',
-    elementId: 'articles',
-  },
-  {
-    label: 'Labs',
-    link: '#labs',
-    elementId: 'labs',
-  }
-])
+import {type MenuItem, useMenuItemStore} from "~/store/item-menu";
+
+const store = useMenuItemStore();
+const items =  store.items;
+
 const router = useRouter()
 const scrollToSection = (item: MenuItem) => {
   if (window.location.pathname !== '/') {
